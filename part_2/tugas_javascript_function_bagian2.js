@@ -7,14 +7,15 @@
   ];
 
   function temukanNama(namaProperty) {
-    return name.filter(function(el) {
-        return el.toLowerCase().indexOf(namaProperty.toLowerCase()) > -1; 
+    var a = name.filter(function(el) {
+      return el.toLowerCase().indexOf(namaProperty.toLowerCase()) > -1; 
     })
+    a.forEach(function(c) {
+      console.log(c);
+    });
   }
 
-  console.log(temukanNama("An").slice(2));
-
-  /*
-  var name_lower = name.map(item => item.toLowerCase());
-  console.log(name_lower);
-*/
+  temukanNama("an");
+  
+  // var name_lower = name.map(item => item.toLowerCase());
+  // console.log(name_lower);

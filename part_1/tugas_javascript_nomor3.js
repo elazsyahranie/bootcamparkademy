@@ -1,15 +1,13 @@
-let nomor = [1, 2, 3, 4, 5, 6, 7, 8, 9]; 
-let forOf = "";
-for (c of nomor){ 
-  forOf += c + " ";
-    console.log(forOf);
-}
-
-  console.log();
-
-var text = "";
-var i;
-for (i = 1; i <= 9; i++) {
-  text += `${i} `;
-}
-console.log(text);
+  const printSegitiga = 6;
+  let n = "";
+  for (var i = 1; i <= printSegitiga; i++) {
+    for(var k = 1; k <= printSegitiga - i + 1; k++){
+      n += k + " ";
+    }
+  n +="\n"
+  }
+  if (typeof printSegitiga === "number") {
+    console.log(n);
+  } else {
+    console.log("Data harus number!")
+  }

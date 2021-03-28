@@ -10,25 +10,22 @@ for (i in nilaiUjian) {
     jumlahNilai += nilaiUjian[i];
 } 
 
-var rataRata = jumlahNilai / nilaiUjian.length; 
+let rataRata = jumlahNilai / nilaiUjian.length; 
 console.log();
 
 console.log(`RATA-RATA - ${rataRata}`);
 
-
-
-
-if (rataRata = 100 && rataRata >= 90) {
+let pembulatan = Math.round(rataRata)
+if (pembulatan = 100 && pembulatan >= 90) {
     return console.log(`GRADE - A`);
-} else if (rataRata >= 80 && rataRata <= 89) {
+} else if (pembulatan >= 80 && pembulatan <= 89) {
     return console.log(`GRADE - B`);
-} else if (rataRata >= 70 && rataRata <= 79) {
+} else if (pembulatan >= 70 && pembulatan <= 79) {
     return console.log(`GRADE - C`);
-} else if (rataRata >= 60 && rataRata <= 69) {
+} else if (pembulatan >= 60 && pembulatan <= 69) {
     return console.log(`GRADE - D`);
-} else if (rataRata >= 0 && rataRata <= 59) {
+} else if (pembulatan >= 0 && pembulatan <= 59) {
     return console.log(`GRADE - E`);
 } else {
     return console.log(`Grade Unavailable`);
 }
-console.log();
