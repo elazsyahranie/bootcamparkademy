@@ -1,0 +1,93 @@
+.my-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-gap-50 {
+  grid-gap: 50px;
+}
+
+/* Button */
+.diy-large-button {
+  width: 360px;
+  height: 56px;
+}
+
+.purple-background {
+  background-color: #5f2eea;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dedede;
+}
+
+.purple-box {
+  background-color: #5f2eea;
+  width: 210px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 350px auto auto auto;
+  grid-gap: 20px;
+}
+
+.footer-element {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+.footer-one {
+  grid-row: 1;
+}
+
+.footer-two {
+  grid-row: 1;
+}
+
+.footer-three {
+  grid-row: 1;
+}
+
+.footer-four {
+  grid-row: 1;
+}
+
+.footer-five {
+  text-align: center;
+}
+
+/* PROFILE ORDER CSS */
+.order-box {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.order-set {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  align-items: center;
+}
+
+.order-set-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.degree {
+  height: 10px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #5f2eea;
+}

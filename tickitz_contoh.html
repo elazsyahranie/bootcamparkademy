@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  .flex-container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    flex: 5;
+  }
+
+  .right {
+    flex: 5
+  }
+
+  .kotak-satu, .kotak-dua, .kotak-tiga, .kotak-empat {
+    width: 100px; 
+    height: 100px;
+  }
+
+  .kotak-satu {
+    background-color: red;
+  }
+
+  .kotak-dua {
+    background-color: yellow;
+    position: absolute;
+    top: 0; 
+    left: 0;
+  }
+
+  .kotak-tiga {
+    background-color: green;
+  }
+
+  .kotak-empat {
+    background-color: orange;
+  }
+
+  .box-2 {
+    position: relative;
+  }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="flex-container">
+      <div class="left">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+      </div>
+      <div class="right">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad magni consequatur amet quo ab nihil veniam ex exercitationem nobis itaque voluptate voluptates saepe, atque inventore sunt illo aliquid pariatur est?
+      </div>
+    </div>
+  </div>
+  <div class="box-2">
+    <div class="kotak-satu">1</div>
+    <div class="kotak-dua">2</div>
+    <div class="kotak-tiga">3</div>
+    <div class="kotak-empat">4</div>
+  </div>
+</body>
+</html>

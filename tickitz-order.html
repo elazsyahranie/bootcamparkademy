@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  
+  <!-- My CSS -->
+  <link href="tickitz-profile.css" rel="stylesheet">
+  <link href="tickitz-profile-2.css" rel="stylesheet">
+  <title>Order Page</title>
+  <style>
+  .btn {
+    width: 196px;
+  }
+
+  .btn-used {
+    background-color: #6E7191;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+  body {
+    font: 'Mulish', sans-serif;
+  }
+
+  .profile-icon {
+    width: 56px;
+    height: 56px; 
+  }
+  </style>
+</head>
+<body>
+<header> 
+  <div class="header-logo">
+    <img src="Tickitz_2.png">
+  </div>
+  <div class="the-menu">
+     <ul class="the-menu-list fw-medium">
+      <li>Movies</li>
+      <li>Cinemas</li>
+      <li>Buy Tickets</li>
+     </ul>
+  </div>
+  <div>
+    <div class="location">
+      <span style="margin-right:2rem;">Location</span><span style="margin-right: 2rem;"><img src="Forward.png"></span><span style="margin-right: 2rem;"><img src="kaca_pembesar.png"></span><span style="margin-right: 2rem;"><img src="ellipse_11.png" class="profile-icon"></span>
+    </div>
+  </div>
+  </div>
+</header>
+
+<!-- Profile Info -->
+<div class="info-grid">
+  <div class="grid-item-1" id="user-profile">
+    <div class="info mt-4 mb-4">
+      <span class="grey-text">INFO</span>
+      <img src="eva_more-horizontal-fill.png">
+    </div>
+    <div class="d-flex justify-content-center">
+      <img src="ellipse_11.png" class="img-fluid">
+    </div>
+    <div class="fw-bold text-center" style="font-size:20px;">Jonas El Rodriguez</div>
+    <div class="mb-5 text-center"><span class="smaller grey-text">Moviegoers</span></div>
+    <hr>
+    <div class="loyalty-points text-start mt-5">
+      <div>Loyalty Points</div>
+      <button type="button" class="btn btn-purple">Moviegoers</button> <!-- The Card -->
+      <div class="smaller text-center mt-5 mb-5">180 points to become a master</div>
+      <div class="degree"></div>
+    </div>
+
+  </div>
+
+  <!-- Profile Settings -->
+  <div class="grid-item-2" id="profile-order">
+    <ul class="mt-4 pb-4" id="profile-information-menu">
+      <li class="fw-bold pt-4" style="border-bottom: 2px solid #5F2EEA;padding-bottom:28px;">Account Settings</li>
+      <li class="fw-bold">Order History</li>
+    </ul>
+    <div class="mt-5" style="margin-left: 3rem;margin-right: 3rem;">
+      <div class="pt-4 pb-4 fw-bolder border-bottom">Details Information</div>
+    
+      <form class="mt-5 mb-2">
+        <div class="order-box">
+        <div class="order-set">
+          <div class="ms-3">
+            <div class="grey-text"><small>Tuesday, 07 July 2020 - 04.30am</small></div>
+            <h5 class="fw-bold"><small>Spider-Man: Homecoming</small></h5>
+          </div>
+          <div class="me-3">
+            <img src="CineOne.png">
+          </div>
+        </div>
+        <hr>
+        <div class="order-set-2">
+          <div class="ms-3">
+            <button type="button" class="btn btn-info">Ticket in active</button>
+          </div>
+          <div class="me-3">
+            <div class="grey-text">Show Details<span class="ms-3"><img src="Forward.png"></span></div>
+          </div>
+        </div>
+        </div>
+
+        <div class="order-box mt-3">
+          <div class="order-set">
+            <div class="ms-3">
+              <div class="grey-text"><small>Monday, 14 June 2020 - 02.00pm</small></div>
+              <h5 class="fw-bold"><small>Avengers: End Game</small></h5>
+            </div>
+            <div class="me-3">
+              <img src="Vector.png">
+            </div>
+          </div>
+          <hr>
+          <div class="order-set-2">
+            <div class="ms-3">
+              <button type="button" class="btn btn-used">Ticket Used</button>
+            </div>
+            <div class="me-3">
+              <div class="grey-text">Show Details<span class="ms-3"><img src="Forward.png"></span></div>
+            </div>
+          </div>
+          </div>
+      </form>
+    </div>
+
+
+    <div class="mt-5 ms-5 pb-5">
+      <button type="button" class="btn btn-primary diy-large-button purple-background"><small>Update changes</small></span></button>
+    </div>   
+
+  </div>
+
+</div>
+
+<footer style="margin-top: 6rem;">
+  <div class="footer-element">
+    <div class="footer-grid">
+      <div class="footer-one" style="margin-top: 6rem;">
+        <img src="Tickitz_2.png">
+        <p style="margin-top:2rem;line-height: 2rem;">Stop waiting in line. Buy tickets
+        conveniently, watch movies quietly.</p>
+      </div>
+      <div class="footer-two" style="margin-top: 6rem;">
+        <p class="fw-bold">Explore</p>
+        <ul class="grey-text mt-2">
+          <li class="mt-1">Cinemas</li>
+          <li class="mt-1">Movies List</li>
+          <li class="mt-1">My Ticket</li>
+          <li class="mt-1">Notification</li>
+        </ul>
+      </div>
+      <div class="footer-three" style="margin-top: 6rem;">
+        <p class="fw-bold">Our Sponsor</p>
+        <ul>
+          <li class="mt-3"><img src="Vector.png"></li>
+          <li class="mt-3"><img src="CineOne.png"></li>
+          <li class="mt-3"><img src="hiflix.png"></li>
+        </ul>
+      </div>
+      <div class="footer-four" style="margin-top: 6rem;">
+        <p class="fw-bold">Contact Us</p>
+        <ul>
+          <li class="mt-3" style="vertical-align: middle;"><img src="eva_facebook-outline.png" class="me-3">Tickitz Cinema.id</li>
+          <li class="mt-3" style="vertical-align: middle;"><img src="bx_bxl-instagram.png" class="me-3">tickitz.id</li>
+          <li class="mt-3" style="vertical-align: middle;"><img src="eva_twitter-outline.png" class="me-3">tickitz.id</li>
+          <li class="mt-3" style="vertical-align: middle;"><img src="feather_youtube.png" class="me-3">Tickitz Cinema.id</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-five pt-5 pb-4">
+      © 2020 Tickitz. All rights reserved.
+    </div>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</html>
